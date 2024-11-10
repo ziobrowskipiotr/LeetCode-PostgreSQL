@@ -1,5 +1,5 @@
 -- Write your PostgreSQL query statement below
-select t1.machine_id, round(avg(t2.timestamp - t1.timestamp)::numeric, 3) as processing_time
+SELECT t1.machine_id, round(avg(t2.timestamp - t1.timestamp)::numeric, 3) as processing_time
 from Activity as t1 join Activity as t2
 on
 t1.machine_id=t2.machine_id
