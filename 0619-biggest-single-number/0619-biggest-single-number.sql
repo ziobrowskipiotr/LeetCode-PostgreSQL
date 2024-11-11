@@ -1,5 +1,5 @@
 -- Write your PostgreSQL query statement below
-SELECT max(num) as num
+SELECT max(num) AS num
 FROM
 (
 select
