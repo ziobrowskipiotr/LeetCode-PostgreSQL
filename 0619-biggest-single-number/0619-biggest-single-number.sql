@@ -2,7 +2,7 @@
 SELECT max(num) AS num
 FROM
 (
-select
+SELECT
 num
 from
 MyNumbers
