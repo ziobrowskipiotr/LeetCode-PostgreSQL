@@ -4,7 +4,7 @@ FROM
 (
 SELECT
 num
-from
+FROM
 MyNumbers
 group by
 num
