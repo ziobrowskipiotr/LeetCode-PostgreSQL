@@ -1,5 +1,5 @@
 -- Write your PostgreSQL query statement below
 SELECT *
-from Cinema
+FROM Cinema
 where id%2=1 and description!='boring'
 order by rating desc;
