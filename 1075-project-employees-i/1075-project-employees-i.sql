@@ -1,5 +1,5 @@
 -- Write your PostgreSQL query statement below
-select
+SELECT
 project_id, round(avg(experience_years), 2) as average_years
 from
 Project join Employee using(employee_id)
