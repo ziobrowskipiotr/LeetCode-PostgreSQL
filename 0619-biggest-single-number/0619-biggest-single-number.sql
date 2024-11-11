@@ -6,7 +6,7 @@ SELECT
 num
 FROM
 MyNumbers
-group by
+GROUP BY
 num
 having
 count(*)=1
