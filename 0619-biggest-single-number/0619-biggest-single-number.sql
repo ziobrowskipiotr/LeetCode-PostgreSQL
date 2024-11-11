@@ -1,6 +1,6 @@
 -- Write your PostgreSQL query statement below
 SELECT max(num) as num
-from
+FROM
 (
 select
 num
