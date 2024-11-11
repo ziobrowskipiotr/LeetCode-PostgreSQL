@@ -8,6 +8,6 @@ FROM
 MyNumbers
 GROUP BY
 num
-having
+HAVING
 count(*)=1
 );
