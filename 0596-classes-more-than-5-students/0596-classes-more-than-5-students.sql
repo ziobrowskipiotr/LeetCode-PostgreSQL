@@ -1,5 +1,5 @@
 -- Write your PostgreSQL query statement below
-select class
+SELECT class
 from Courses
 group by class
 having count(class)>=5;
