@@ -5,4 +5,4 @@ FROM
 Users JOIN Register USING(user_id)
 GROUP BY
 contest_id
-order by percentage desc, contest_id;
+ORDER by percentage desc, contest_id;
